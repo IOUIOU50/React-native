@@ -32,6 +32,7 @@ const App: () => React$Node = () => {
   return ( //RN은 컴포넌트'들'을 반환하는 함수로 구성됨.
   //반환하는 컴포넌트는 하나의 노드로 구성시키기 위해 아래 <>를 이용함. <>는 Fragnent라는 컴포넌트
   //<>밑으로 오는 RN의 컴포넌틑는 하나의 노드들로 구성되어 함수 리턴을 이용할 수 있게 된다.
+  //인라인 스타일 : 한 줄의 태그 안에 컴포넌트를 구성하는 것.
     <> 
       <StatusBar barStyle="light-content" />  
       <SafeAreaView>
