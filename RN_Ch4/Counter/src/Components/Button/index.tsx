@@ -22,7 +22,7 @@ const Icon = Styled.Image``;
 
 interface Props {
   iconName: 'plus' | 'minus'; //
-  onPress?: () => void; //?의 의미 : Optional 프로퍼티
+  onPress?: () => void; //'?'의 의미 : Optional 프로퍼티
   /**Optinal 프로퍼티 : 선택적으로 구현하는 프로퍼티. 구현해도 되고 안해도 됨 */
 }
 
